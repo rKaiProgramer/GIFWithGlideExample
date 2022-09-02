@@ -1,19 +1,30 @@
  
 # GIFWithGlideExample
-#####A simple example of loading GIF with Glide for [a question from Stackoverflow](https://stackoverflow.com/questions/73575949/having-troubles-loading-a-gif-image-in-my-application)
+### A simple example of loading GIF with Glide for [a question from Stackoverflow](https://stackoverflow.com/questions/73575949/having-troubles-loading-a-gif-image-in-my-application)
 
-#####AndroidManifest.xml:
+**Preview:**
+
+<img src="https://github.com/rKaiProgramer/GIFWithGlideExample/blob/main/assets/screenshots/puppy.gif" width="162" height="351"/>\
+&nbsp;
+
+**AndroidManifest.xml:**
+
 add internet permission
 ```
 <uses-permission android:name="android.permission.INTERNET" />
 ```
-#####build.gradle(:app):
+&nbsp;
+
+**build.gradle(:app):**
 
 add Glide Library.
 ```
 implementation 'com.github.bumptech.glide:glide:4.12.0'
 ```
-#####activity_main.xml:
+&nbsp;
+
+**activity_main.xml:**
+
 add an ImageView
 ```
 <ImageView
@@ -24,7 +35,9 @@ add an ImageView
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent" />
 ```
-#####MainActivity.kt:
+&nbsp;
+
+**MainActivity.kt:**
 
 load GIF into imageView
 ```
